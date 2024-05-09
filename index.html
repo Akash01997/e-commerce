@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Store</title>
+</head>
+<style>
+    header {
+        color: white;
+        padding: 20px;
+        font-style: normal;
+        cursor: pointer;
+    }
+
+    nav ul li:hover {
+        font-size: 50px;
+        color: red;
+        margin-right: 18px;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        right: 10%;
+
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+        justify-content: center;
+        font-size: 40px;
+        transition: all 0.2s ease;
+        font-family: cursive;
+    }
+
+    .bcg-image {
+        margin: 0;
+        padding: 0;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    body {
+        background-image: url(https://s4.scoopwhoop.com/anj/sdx/383146006.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding-top: 20px;
+        height: 100vh;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .home-section {
+        text-align: center;
+        padding: 100px 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .home-section h1 {
+        font-size: 80px;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .home-section p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        color: white;
+    }
+
+    .button {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+        background-color: #555;
+    }
+
+    .shop-now {
+        text-align: center;
+        padding: 100px 0px;
+
+    }
+
+    .shop-now h1 {
+        font-size: 80px;
+        color: aquamarine;
+        margin-top: 500px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .shop-now p {
+        text-align: center;
+    }
+
+    .clothing-section {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        height: 50vh;
+    }
+
+    .clothing-cards {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .clothing-cards .card {
+        margin: 50px;
+        width: 350px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .clothing-cards img {
+        width: 80%;
+        height: 30vh;
+        object-fit: cover;
+        padding-left: 33px;
+        padding-top: 33px;
+        border-radius: 10px;
+    }
+
+    .card-info {
+        padding: 20px;
+    }
+
+    .card-info h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card-info p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .footer-title h2{
+        margin-top: 20%;
+        margin-left: 45%;
+        color: aliceblue;
+    }
+    .footer{
+        background-color: #333;
+        margin: 5px;
+    }
+    .nav-link {
+    color: inherit; 
+    text-decoration: none; 
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a class="nav-link" href = "#shop">Shop</a></li>
+                <li><a>Cart</a></li>
+                <li><a>Contact</a></li>
+                <li><a>About</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="https://www.affordable.pk/uploads/blog/1628879067_Ethnic.png" alt="Logo">
+        </div>
+    </header>
+
+    <section class="home-section">
+        <h1>Welcome to Our Ethnic Cloth Store</h1>
+        <p>Discover a wide range of traditional and stylish ethnic clothing for every occasion.</p>
+        <a href="#" class="button">Shop Now</a>
+    </section>
+
+
+    <section class="shop-now" id="shop">
+        <h1>Shop with us</h1>
+        <p>Indulge in the essence of tradition and elegance with our curated collection of ethnic treasures. From
+            exquisite jewelry and timeless clothing to authentic makeup kits and handcrafted shoes, our shop offers a
+            glimpse into the rich tapestry of cultural heritage. Explore our diverse range of products and embark on a
+            journey of style, sophistication, and self-expression. Shop with us and adorn yourself with the finest
+            ethnic craftsmanship.</p>
+    </section>
+
+    <section class="clothing-section">
+        <div class="clothing-cards">
+            <div class="card">
+                <img src="https://cdn.shopclues.com/images1/detailed/85789/137523092-85789446-1528449362.jpg"
+                    alt="jwellery">
+                <div class="card-info">
+                    <h2>Elegant Ethnic Jewelry</h2>
+                    <p>Discover our exquisite collection of ethnic jewelry, handcrafted with precision and adorned with
+                        intricate designs. Elevate your style with our timeless pieces that blend tradition with
+                        contemporary elegance.</p>
+                    <a href="" class="button">Shop Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.bonanzastatic.com/afu/images/7236/e6e9/7d00_6103001480/s-l1600.jpg"
+                    alt="jwellery">
+                <div class="card-info">
+                    <h2>Stylish Ethnic Clothing</h2>
+                    <p>Explore our diverse range of ethnic clothing, curated to reflect the rich cultural heritage and
+                        craftsmanship. From vibrant sarees to intricately embroidered kurta sets, find the perfect
+                        ensemble to express your individuality.</p>
+                    <a href="" class="button">Shop Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.CKAZAdDUGwwXJl3AOhlsSwHaHh&pid=Api&P=0&h=180"
+                    alt="jwellery">
+                <div class="card-info">
+                    <h2>Authentic Ethnic Makeup Kit</h2>
+                    <p>Enhance your natural beauty with our authentic ethnic makeup kit, crafted with skin-friendly
+                        ingredients and inspired by traditional beauty rituals. From earthy tones to bold hues, our
+                        collection celebrates diversity and empowers self-expression.</p>
+                    <a href="" class="button">Shop Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.auJ4XQmwXBXsZMFQ1QRH5QHaFj&pid=Api&P=0&h=180"
+                    alt="jwellery">
+                <div class="card-info">
+                    <h2>Handcrafted Ethnic Shoes & Sandals</h2>
+                    <p>Step into comfort and style with our handcrafted ethnic shoes and sandals, meticulously crafted
+                        by skilled artisans. From intricately embroidered mojaris to chic kolhapuris, each pair reflects
+                        the rich cultural heritage and modern sensibilities.</p>
+                    <a href="" class="button">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <footer class="footer">
+            <div class="footer-title">
+                <h2>This Website made by Akash</h2>
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>
